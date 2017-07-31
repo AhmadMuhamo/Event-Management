@@ -1,0 +1,89 @@
+    .sidebar-nav {
+        position: fixed;
+        top: 50px;
+        width: 300px;
+        left: -37px;
+        list-style: none;
+        background-color: #FFFFFF;
+        height:100%;
+    }
+
+    .sidebar-nav li {
+        text-indent: 20px;
+        line-height: 40px;
+    }
+
+    .sidebar-nav li a {
+        display: block;
+        text-decoration: none;
+        color: #999999;
+    }
+
+    .sidebar-nav li a:hover {
+        text-decoration: none;
+        color: #000000;
+        background: #F5F8FA;
+    }
+
+    .sidebar-nav li a:active,
+    .sidebar-nav li a:focus {
+        text-decoration: none;
+    }
+
+    .sidebar-nav > .sidebar-brand {
+        height: 65px;
+        font-size: 18px;
+        line-height: 60px;
+    }
+
+    .sidebar-nav > .sidebar-brand a {
+        color: black;
+    }
+
+    .sidebar-nav > .sidebar-brand a:hover {
+        color: #999999;
+        background: none;
+    }
+    .sidebar-nav > .sidebar-logout {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+
+    .sidebar-nav > .sidebar-logout a {
+    	padding-left: 60px;
+        color: black;
+    }
+
+    .sidebar-nav > .sidebar-logout a:hover {
+        color: darkred;
+        background: none;
+    }
+
+
+
+    .footer {   
+    	position: absolute;
+    	right: 0;
+    	bottom: 0;
+    	left: 0;
+    	padding: 1rem;
+    	background-color: #efefef;
+    	text-align: center; }
+    html {  
+    	height: 100%;
+    	box-sizing: border-box; }
+    *,
+    *:before,
+    *:after {   
+    	box-sizing: inherit;    }
+
+    body {  
+    	position: relative;
+    	margin: 0;
+    	padding-bottom: 6rem;
+    	min-height: 100%;   }
+
+    a:hover {
+        font-weight: bold;
+    }
