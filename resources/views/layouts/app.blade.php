@@ -6,7 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- CSRF Token -->
       <meta name="csrf-token" content="{{ csrf_token() }}">
-      <title>{{ config('app.name', 'SIRTTS') }}</title>
+      <title>{{ config('app.name', 'Event-Management') }}</title>
       <!-- Styles -->
       <link href="/css/app.css" rel="stylesheet">
       <link href="/css/public.css" rel="stylesheet">
@@ -53,7 +53,7 @@
                   </button>
                   <!-- Branding Image -->
                   <a class="navbar-brand" href="{{ url('/') }}">
-                  {{ config('app.name', 'SIRTTS') }}
+                  {{ config('app.name', 'Event-Management') }}
                   </a>
                </div>
                <div class="collapse navbar-collapse" id="app-navbar-collapse">
